@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Mojumder | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Joy Mojumder</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <h1>Joy Mojumder</h1>
+                <div class="subtitle">Aspiring Data Scientist</div> 
+                <p class="summary">
+                    Final-year Computer Science and Engineering graduate with a strong passion for Data Analysis and 
+                    Data Science. Proficient in turning raw data into clear, actionable insights using Python, 
+                    SQL, and Power BI. Equipped with a solid analytical mindset developed through hands-on data 
+                    projects and research.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-hire">Contact Me</a>
+                    <button type="button" class="cv-inline-btn" onclick="openCvPreviewModal('Curriculum Vitae', 'image/CV JOY MOJUMDER.pdf')">
+                        <i class="fas fa-download"></i> CV
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="image/22222.jpg" alt="Joy Mojumder" onerror="this.src='https://via.placeholder.com/320'">
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="card card-hover">
+                    <h3>Daffodil International University</h3> 
+                    <div class="meta-info">
+                        <span>Bachelor of Science in Computer Science and Engineering</span> 
+                        <span>Savar, Dhaka | July 2022 - Present</span> 
+                    </div>
+                    <p class="gpa-tag"><strong>GPA:</strong> 3.87 out of 4.00</p>
+                </div>
+                <div class="card card-hover">
+                    <h3>Ideal College, Dhanmondi</h3>
+                    <div class="meta-info">
+                        <span>Higher Secondary Certificate</span> 
+                        <span>Dhanmondi, Dhaka, Bangladesh | June 2021</span>
+                    </div>
+                    <p class="gpa-tag"><strong>GPA:</strong> 4.75 out of 5.00</p>
+                </div>
+                <div class="card card-hover">
+                    <h3>Nawabgonj Pilot High School</h3> 
+                    <div class="meta-info">
+                        <span>Secondary School Certificate</span> 
+                        <span>Nawabgonj, Dhaka, Bangladesh | February 2019</span>
+                    </div>
+                    <p class="gpa-tag"><strong>GPA:</strong> 4.83 out of 5.00</p> 
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Technical Expertise</h2> 
+            <div class="skills-grid">
+                <div class="skill-column">
+                    <h4>Programming Languages</h4>
+                    <div class="skill-item"><span>Python</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>C</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>C++</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"r"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>Java</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star""></i><i class="far fa-star"></i></div></div>
+                </div>
+                <div class="skill-column">
+                    <h4>Data Analysis</h4>
+                    <div class="skill-item"><span>SQL</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div>
+                    <div class="skill-item"><span>Pandas</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div>
+                    <div class="skill-item"><span>NumPy</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div>
+                    <div class="skill-item"><span>Matplotlib</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div> 
+                </div>
+                 <div class="skill-column">
+                    <h4>Data Visualization</h4>
+                    <div class="skill-item"><span>Power BI</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div>
+                    <div class="skill-item"><span>Excel</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                </div>
+                <div class="skill-column">
+                    <h4>Web Technologies</h4> 
+                    <div class="skill-item"><span>HTML</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>CSS</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>JavaScript</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div> 
+                </div>
+                <div class="skill-column">
+                    <h4>Graphical Software</h4>
+                    <div class="skill-item"><span>Photoshop</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>Illustrator</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div>
+                </div>
+                <div class="skill-column">
+                    <h4>Office Tools</h4> 
+                    <div class="skill-item"><span>MS Word</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div>
+                    <div class="skill-item"><span>MS Excel</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div> 
+                    <div class="skill-item"><span>PowerPoint</span><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Experience & Research</h2>
+            <div class="timeline">
+                <div class="card card-hover">
+                    <h3>Graphics Designer</h3> 
+                    <div class="meta-info">
+                        <span>Iskool71 Online Educational Platform</span>
+                        <span>May 2023 - May 2024</span>
+                    </div>
+                    <ul class="styled-list">
+                        <li>Designed and developed graphics for digital learning content.</li>
+                        <li>Collaborated with the content team to enhance brand visuals and engagement.</li>
+                        <li>Contributed to creative campaigns for online education.</li>
+                    </ul>
+                </div>
+                <div class="card card-hover">
+                    <h3>Undergraduate Research Assistant</h3> 
+                    <div class="meta-info">
+                        <span>Deep Learning & Machine Learning</span>
+                        <span>July 2025 - Present</span> 
+                    </div>
+                    <ul class="styled-list">
+                        <li><strong>Physical Inactivity Analysis:</strong> Framework logic ready utilizing predictive ML architectures to classify physical inactivity metrics across universities.</li>
+                        <li><strong>FedMultiMed Framework:</strong> Federated Deep Learning platform structured across distinct medical imaging models utilizing Explainable AI integrations.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2 class="section-title">Extra-Curricular Activities</h2>
+            <div class="card">
+                <ul class="styled-list">
+                    <li>Organizer - Intra-University IoT Fest 2023 - DIU</li>
+                    <li>Volunteer - 2nd International Conference on Big Data, IoT and Machine Learning (BIM 2023) - DIU</li>
+                    <li>Member - Cyber Security Club - DIU</li>
+                    <li>Participant - DIU Mini Marathon 2024 (5 KM Category)</li>
+                    <li>Participant - 25th DIU Founding Anniversary Run 2026 (7.5 KM Category)</li>
+                    <li>Participant - Student Development Workshop: Leadership Skills & Emotional Intelligence-DIU</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2 class="section-title">Certificates</h2> 
+            <div class="cards-grid">
+                <div class="card card-hover clickable-card" onclick="openImageModal('Data Science and Math Skills', 'image/math skills.jpeg')">
+                    <h4>Data Science and Math Skills</h4>
+                    <p class="meta-info">Coursera</p> 
+                    <span class="btn-link"><i class="fas fa-image"></i> View Certificate Image</span>
+                </div>
+                <div class="card card-hover clickable-card" onclick="openImageModal('Data Science and Math Skills', 'image/basics python.jpeg')">
+                    <h4>Basics Python</h4>
+                    <p class="meta-info">Coursera</p> 
+                    <span class="btn-link"><i class="fas fa-image"></i> View Certificate Image</span>
+                </div>
+                 <div class="card card-hover clickable-card" onclick="openImageModal('Data Science and Math Skills', 'image/11.jpg')">
+                    <h4>The Ultimate Data Science Course</h4> 
+                    <p class="meta-info">Code With Harry</p> 
+                    <span class="btn-link"><i class="fas fa-image"></i> View Certificate Image</span>
+                </div>
+                 <div class="card card-hover clickable-card" onclick="openImageModal('Data Science and Math Skills', 'image/2.jpg')">
+                    <h4>Basic Etiquette for Better Personality</h4>
+                    <p class="meta-info">GoedU</p>
+                    <span class="btn-link"><i class="fas fa-image"></i> View Certificate Image</span>
+                </div>
+                <div class="card card-hover clickable-card" onclick="openImageModal('Kali Linux', 'image/3.jpg')">
+                    <h4>Introduction to Kali Linux</h4>
+                    <p class="meta-info">Simplilearn</p>
+                    <span class="btn-link"><i class="fas fa-image"></i> View Certificate Image</span>
+                </div>
+                <div class="card card-hover clickable-card" onclick="openImageModal('Data Science and Math Skills', 'image/4.jpg')">
+                    <h4>ChatGPT Basics, Usage and Prospects</h4>
+                    <p class="meta-info">GoedU</p>
+                    <span class="btn-link"><i class="fas fa-image"></i> View Certificate Image</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2 class="section-title">Achievements</h2>
+            <div class="cards-grid">
+                <div class="card card-hover clickable-card" onclick="openMultiImageModal('Dean\'s List Award', ['image/a.jpg', 'image/b.jpg', 'image/c.jpg'])">
+                    <h4>Dean's List Award</h4> 
+                    <p class="meta-info">Daffodil International University (For Academic Excellence)</p>
+                    <span class="btn-link"><i class="fas fa-images"></i> Instant Preview</span>
+                </div>
+                <div class="card card-hover clickable-card" onclick="openMultiImageModal('Dean\'s List Award', ['image/d.jpg', 'image/e.jpg', 'image/f.jpg'])">
+                    <h4>Bronze Award</h4> 
+                    <p class="meta-info">The Duke of Edinburgh's Leadership International Award - British Council</p>
+                    <span class="btn-link"><i class="fas fa-image"></i> Instant Preview</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="competitions">
+            <h2 class="section-title">Competitions</h2>
+            <div class="cards-grid">
+                <div class="card card-hover accent-border-primary">
+                    <i class="fas fa-trophy trophy-icon"></i>
+                    <h4>Data Visionary</h4> 
+                    <p class="meta-info">National Data Analytics Competition (NDAC 2025)</p>
+                </div>
+                <div class="card card-hover accent-border-secondary">
+                    <i class="fas fa-code code-icon"></i>
+                    <h4>Unlock the Algorithm</h4> 
+                    <p class="meta-info">Programming Contest (Spring-2024)</p>
+                </div>
+                <div class="card card-hover accent-border-primary">
+                    <i class="fas fa-laptop-code code-icon"></i>
+                    <h4>Take-Off Programming Contest</h4> 
+                    <p class="meta-info">Programming Contest (Fall-2022)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2> 
+            <div class="projects-flex-grid">
+                <div class="project-card" onclick="openProjectModal(1)">
+                    <div class="project-media-wrapper">
+                        <img src="image/x.png" alt="Project Management System" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-details-pane">
+                        <h3>Project Management System</h3> 
+                        <p class="meta-info">Full Desktop System Architecture</p>
+                    </div>
+                </div>
+                <div class="project-card" onclick="openProjectModal(2)">
+                    <div class="project-media-wrapper">
+                        <img src="image/y.png" alt="Visionary Eyewear E-Commerce" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-details-pane">
+                        <h3>Visionary Eyewear E-Commerce</h3>
+                        <p class="meta-info">Responsive SPA Single-Page Application</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="footer-contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem;">Let's collaborate or build analytics pipelines together!</p>
+            <div class="contact-links-row">
+                <a href="https://www.linkedin.com/in/joy-mojumder-1543762b9?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="pill-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.facebook.com/share/1BTtm8KrHq/" target="_blank" class="pill-btn"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="mailto:mojumder22205101132@diu.edu.bd" class="pill-btn"><i class="fas fa-envelope"></i> Email</a> 
+            </div>
+        </section>
+
+    </div>
+
+    <div class="modal-overlay" id="globalModal">
+        <div class="modal-box">
+            <span class="btn-close-modal" onclick="closeModal()">&times;</span>
+            <div id="modalContainerInject">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
